@@ -1,0 +1,28 @@
+{
+  "bots": [
+    {
+      "token": "your_token_1",
+      "strategy": "conservative",
+      "bet_amount": 0.00001,
+      "mines_count": 3,
+      "max_rounds": 30,
+      "delay": 2.5
+    },
+    {
+      "token": "your_token_2",
+      "strategy": "martingale",
+      "bet_amount": 0.00001,
+      "mines_count": 5,
+      "max_rounds": 20,
+      "delay": 3.0
+    },
+    {
+      "token": "your_token_3",
+      "strategy": "pattern",
+      "bet_amount": 0.00002,
+      "mines_count": 3,
+      "max_rounds": 50,
+      "delay": 2.0
+    }
+  ]
+}
